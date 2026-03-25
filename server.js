@@ -30,7 +30,7 @@ const server = http.createServer(app);
 connectDB();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: ["http://localhost:5173", "https://ai-learning-assistant-frontend-phi.vercel.app"],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
