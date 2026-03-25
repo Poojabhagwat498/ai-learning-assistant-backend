@@ -14,6 +14,8 @@ const router = express.Router();
 
 
 
+
+
 // 🔹 VALIDATION HANDLER (THIS WAS MISSING)
 const validate = (req, res, next) => {
   const errors = validationResult(req);
