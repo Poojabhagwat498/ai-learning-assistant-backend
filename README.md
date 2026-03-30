@@ -1,0 +1,1 @@
+An AI-powered Learning Assistant built using the MERN Stack, WebRTC, Socket.IO, and Google Gemini AI to enhance learning through intelligent content generation, real-time collaboration, and interactive study tools.
